@@ -1,0 +1,85 @@
+body {
+     background-color: #222831;
+     color: #000;
+     text-align: left;
+     padding: 50px;
+}
+
+h1 {
+    padding: 10px;
+    color: #fff;
+    font-size: 60px;
+    font-family: impact;
+    line-height: 50px;
+
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.one {
+     grid-column: 2/4;
+     grid-row: 1/8;
+     background-color: #393E46;
+     height: 210px;
+}
+
+.two {
+     grid-column: 4/4;
+     grid-row: 1/8;
+     background-color: #00ADB5;
+
+}
+
+.three {
+     grid-column: 1/2;
+     grid-row: 9/10;
+     background-color: #EEEEEE;
+     padding: 10px;
+}
+
+.four {
+    grid-column: 2/3;
+    grid-row: 9/10;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+.five {
+    grid-column: 3/4;
+    grid-row: 9/10;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+.six {
+    grid-column: 4/4;
+    grid-row: 9/10;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+.seven {
+    grid-column: 1/2;
+    grid-row: 10/10;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+.eight {
+    grid-column: 2/3;
+    grid-row: 10/10;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+.nine {
+    grid-column: 3/3;
+    grid-row: 10/10;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
